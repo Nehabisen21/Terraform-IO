@@ -1,0 +1,13 @@
+region               = "us-east-1"
+availability_zone    = "us-east-1b"
+instance_type        = "t3.micro"
+instance_ami         = "ami-0ecb62995f68bb549"
+vpc1_cidr            = "10.0.0.0/24"
+vpc2_cidr            = "10.1.0.0/24"
+public_subnet_cidr   = "10.0.1.0/25"
+private_subnet_cidr  = "10.0.2.0/25"
+private2_subnet_cidr = "10.1.1.0/25"
+rds_subnet2          = "10.1.2.0/25"
+rds_username         = "admin"
+DB_instance_class    = "db.t3.micro"
+
